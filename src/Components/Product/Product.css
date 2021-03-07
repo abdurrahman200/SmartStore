@@ -1,0 +1,8 @@
+h2 {
+    cursor: pointer;
+}
+.btn {
+    font-weight: 600 !important;
+    border-radius: 0rem !important;
+    box-shadow: 0rem 0rem 1rem #aaa !important;
+}
