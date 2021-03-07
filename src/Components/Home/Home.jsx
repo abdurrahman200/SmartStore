@@ -1,13 +1,17 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import Header from '../Header/Header';
 import Shop from '../Shop/Shop';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Header />
-            <Shop />
-        </div>
+            <Container>
+                <Shop />
+            </Container>
+
+        </>
     );
 };
 

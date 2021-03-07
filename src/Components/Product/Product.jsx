@@ -8,7 +8,7 @@ const Product = (props) => {
     // const { name, category, key, img, price, priceFraction, seller, shipping, star, starCount, stock, url, wholePrice } = props.product
     const { name, img, price, seller, shipping, stock } = props.product
     return (
-        <Container>
+        <>
             <Row py={5}>
                 <Col className="p-3" lg={4} md={12} sm={12} xs={12} m={5}>
                     <img src={img} alt="img" />
@@ -22,7 +22,7 @@ const Product = (props) => {
                     <Button onClick={() => props.addProduct(props.product)} className="btn w-25" variant="secondary" size="lg"> <FaShoppingCart /> Add TO CART</Button>
                 </Col>
             </Row>
-        </Container>
+        </>
     );
 };
 
