@@ -1,10 +1,13 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Manage = () => {
     return (
-        <div>
-            Hello Manage
-        </div>
+        <>
+            <Container>
+                Hello Manage
+            </Container>
+        </>
     );
 };
 

@@ -1,9 +1,15 @@
 import React from 'react';
 import classes from './NoMatch.css'
+
 const NoMatch = () => {
     return (
         <>
-            <h3 className={classes.style}> No Match</h3>
+            <div id="main">
+                <div className={classes.fof}>
+                    <h1>Error 404</h1>
+                    <h5>Page not found</h5>
+                </div>
+            </div>
         </>
     );
 };

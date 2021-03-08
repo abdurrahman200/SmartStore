@@ -1,10 +1,13 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Review = () => {
     return (
-        <div>
-            Hello review
-        </div>
+        <>
+            <Container>
+                Hello Review
+            </Container>
+        </>
     );
 };
 

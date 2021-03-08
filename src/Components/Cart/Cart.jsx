@@ -14,10 +14,10 @@ const Cart = (props) => {
         shipping = 0;
     }
     else if (total > 15) {
-        shipping = 4.99;
+        shipping = 12.99;
     }
     else if (total > 0) {
-        shipping = 12.99;
+        shipping = 7.99;
     }
 
     const tax = (total / 10);
@@ -30,9 +30,8 @@ const Cart = (props) => {
     return (
         <Card>
             <div className="text-center">
-                <h2 className="text-info font-weight-bold mt-3"> Order Summary </h2>
-                <h5 className="font-weight-bold text-muted">Items Order : {cart.length} </h5>
-                <hr className="bg-secondary py-1" />
+                <h1 className="text-info font-weight-bold mt-3"> Order Summary </h1>
+                <h4 className="font-weight-bold text-muted">Items Order : {cart.length} </h4>
             </div>
             <Table striped hover className="text-muted font-weight-bold">
                 <thead>
@@ -54,11 +53,7 @@ const Cart = (props) => {
                     </tr>
                 </thead>
             </Table>
-
             <Button className="btn w-100" variant="secondary" size="lg"> Review your order </Button>
-
-
-
         </Card>
     );
 };

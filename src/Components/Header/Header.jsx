@@ -4,9 +4,9 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 const Header = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="md" bg="secondary" variant="dark">
+            <Navbar collapseOnSelect expand="md" bg="secondary" variant="dark" style ={{borderBottom:'3px solid #17a2b8'}}>
                 <Container >
-                    <Navbar.Brand href="home"> E-commerce </Navbar.Brand>
+                    <Navbar.Brand href="/"> E-commerce </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto">

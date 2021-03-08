@@ -24,7 +24,7 @@ const Shop = () => {
             </Row>
             <Row>
                 <Col lg={9} md={8} sm={12} xs={12}>
-                    {products.map(product => <Product product={product} key={product.key} addProduct={addProduct} />)}
+                    {products.map(product => <Product showAddCart={true} product={product} key={product.key} addProduct={addProduct} />)}
                 </Col>
 
                 <Col lg={3} md={4} sm={12} xs={12}>
