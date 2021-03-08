@@ -15,9 +15,9 @@ const Product = (props) => {
                 </Col>
                 <Col className="p-3" lg={8} md={12} sm={12} xs={12} m={5}>
                     <h2 className="text-info"> {name} </h2>
-                    <h5 className="font-weight-bold text-muted">{price}</h5>
-                    <h5 className="font-weight-bold text-muted">By : {seller}</h5>
-                    <h5 className="font-weight-bold text-muted">{shipping}</h5>
+                    <h5 className="font-weight-bold text-muted">Price: {price}</h5>
+                    <h5 className="font-weight-bold text-muted">By: {seller}</h5>
+                    <h5 className="font-weight-bold text-muted">Shipping Cost: {shipping}</h5>
                     <h5 className="font-weight-bold text-muted"> Only {stock} Item Available</h5>
                     <Button onClick={() => props.addProduct(props.product)} className="btn w-25" variant="secondary" size="lg"> <FaShoppingCart /> Add TO CART</Button>
                 </Col>
