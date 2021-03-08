@@ -5,7 +5,7 @@ import Shop from '../Shop/Shop';
 const Home = () => {
     return (
         <>
-            <Container>
+            <Container className="bg-light">
                 <Shop />
             </Container>
 

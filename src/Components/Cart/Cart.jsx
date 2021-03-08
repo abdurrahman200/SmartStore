@@ -1,5 +1,6 @@
-import { Button, Card, Table } from 'react-bootstrap';
+import { Card, Table } from 'react-bootstrap';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Cart = (props) => {
     const cart = props.cart;
@@ -53,7 +54,7 @@ const Cart = (props) => {
                     </tr>
                 </thead>
             </Table>
-            <Button className="btn w-100" variant="secondary" size="lg"> Review your order </Button>
+            <Link to="/Review" className="btn btn-lg btn-secondary w-100 text-light">  Review your order</Link>
         </Card>
     );
 };

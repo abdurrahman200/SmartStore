@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 const Manage = () => {
     return (
         <>
-            <Container>
+            <Container className="bg-light">
                 Hello Manage
             </Container>
         </>
